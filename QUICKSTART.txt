@@ -1,0 +1,43 @@
+##### AI generated to support lab partner work ###########
+
+
+▶️  RUNNING THE PROJECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TASK 1 - GENERATE ALL 9 PLOTS:
+┌─────────────────────────────────────────────────────────────────────────┐
+│  python main.py plots                                                   │
+└─────────────────────────────────────────────────────────────────────────┘
+
+This will:
+• Run simulations for all parameter combinations
+• Generate 9 comparison plots (Random vs Min-Queue)
+• Save plots to /mnt/user-data/outputs/
+• Takes ~5-10 minutes depending on your computer
+
+Output files:
+  ├─ blocking_vs_arrival_rate.png
+  ├─ blocking_vs_service_rate.png
+  ├─ blocking_vs_traffic_load.png
+  ├─ queue_length_vs_arrival_rate.png
+  ├─ queue_length_vs_service_rate.png
+  ├─ queue_length_vs_traffic_load.png
+  ├─ sojourn_vs_arrival_rate.png
+  ├─ sojourn_vs_service_rate.png
+  └─ sojourn_vs_traffic_load.png
+
+
+TASK 2 - LAUNCH SENSITIVITY ANALYSIS GUI: (works for soujourn time only not needed for project)
+┌─────────────────────────────────────────────────────────────────────────┐
+│  python main.py gui                                                     │
+└─────────────────────────────────────────────────────────────────────────┘
+
+This opens an interactive window where you can:
+• Choose strategy (Random or Min-Queue)
+• Set simulation parameters
+• Select which parameter to analyze
+• Define parameter ranges
+• See results in real-time
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
